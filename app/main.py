@@ -1,5 +1,4 @@
 import os
-import logging
 from flask import Flask, request
 from .api import api as api_blueprint
 from flask_cors import CORS
